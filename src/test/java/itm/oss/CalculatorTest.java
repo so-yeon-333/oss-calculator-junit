@@ -19,9 +19,9 @@ class CalculatorTest {
     }
 
     @Test
-    @DisplayName("Testing function isPrime with 5")
+    @DisplayName("Testing function isPrime with 6")
     void isFivePrime() {
-        assertTrue(calc.isPrime(5), "5 is prime.");
+        assertTrue(calc.isPrime(6), "5 is prime.(5를 6으로 잘못 테스트)");
     }
 
     @Test
